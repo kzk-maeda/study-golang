@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+</head>
+<body>
+<form action="/login" method="post">
+    <input type="checkbox" name="interest" value="football">サッカー
+    <input type="checkbox" name="interest" value="basketball">バスケットボール
+    <input type="checkbox" name="interest" value="tennis">テニス
+    <br>
+    メールアドアドレス:　<input type="text" name="mail">
+    <br>
+    パスワード:　<input type="password" name="password">
+    <br>
+    <input type="hidden" name="token" value="{{.}}">
+    <input type="submit" value="ログイン">
+</form>
+</body>
+</html>
